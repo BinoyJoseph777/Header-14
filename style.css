@@ -1,45 +1,45 @@
-.div {
-    background-color: var(--background-dark, #2f1893);
+* {
+  margin: 0;
+  font-family: DM Sans, sans-serif;
+}
+.main {
+    background-color: #2f1893;
     display: flex;
     padding-right: 20px;
     padding-left: 20px;
     flex-direction: column;
   }
-  .div-2 {
+  .navbar {
     align-self: center;
     display: flex;
+    margin: auto;
     margin-top: 65px;
-    margin-left: -19px;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     max-width: 969px;
-    align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
   }
 
-  .div-3 {
-    color: var(--colors-white, #fff);
+  .logo {
+    color: white;
     text-align: center;
-    font-family: DM Sans, sans-serif;
     font-size: 24px;
     font-weight: 700;
-    letter-spacing: -0.293px;
-    align-self: center;
     margin-top: auto;
     margin-bottom: auto;
-    width: 114px;
+    width: auto;
   }
-  .div-4 {
-    align-self: stretch;
+  .elements {
+    align-self: center;
     display: flex;
     width: 503px;
     max-width: 100%;
-    align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
   }
 
-  .div-5 {
+  .overview {
     color: var(--colors-white, #fff);
     font-family: DM Sans, sans-serif;
     font-size: 18px;
@@ -50,7 +50,7 @@
     margin-top: auto;
     margin-bottom: auto;
   }
-  .div-6 {
+  .elements p {
     color: var(--colors-white, #fff);
     font-family: DM Sans, sans-serif;
     font-size: 18px;
@@ -60,55 +60,15 @@
     margin-top: auto;
     margin-bottom: auto;
   }
-  .div-7 {
-    color: var(--colors-white, #fff);
-    font-family: DM Sans, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-    align-self: center;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  .div-8 {
-    color: var(--colors-white, #fff);
-    font-family: DM Sans, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-    align-self: center;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  .div-9 {
-    align-self: stretch;
-    display: flex;
-    flex-direction: column;
-    width: 120px;
-  }
-  .div-10 {
+  
+  .elements button {
     border-radius: 100px;
-    background-color: var(--action-third, #e93a7d);
-    align-self: stretch;
-    display: flex;
-    width: 100%;
-    flex-grow: 1;
+    background-color: #e93a7d;
+    color: white;
     padding-top: 14px;
     padding-right: 20px;
     padding-bottom: 14px;
     padding-left: 20px;
-    flex-direction: column;
-  }
-  .div-11 {
-    color: var(--colors-white, #fff);
-    text-align: center;
-    font-family: DM Sans, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 26px;
-    align-self: center;
-    margin-top: -1px;
-    text-wrap: nowrap;
   }
 
   .div-12 {
